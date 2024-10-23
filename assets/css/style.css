@@ -9,18 +9,22 @@ body {
 
 header {
     background-color: #ffcc00; /* Yellow */
-    padding: 20px;
+    padding: 50px;
     text-align: center;
 }
 
 header h1 {
     margin: 0;
-    color: #ff4500; /* Orange */
+    color: black;
 }
 
 header p {
     margin: 5px 0;
     font-size: 1.2em;
+}
+
+nav {background-color: #ffcc00; /* Yellow */
+    text-align : center;
 }
 
 nav ul {
@@ -29,13 +33,15 @@ nav ul {
 }
 
 nav ul li {
-    display: inline;
-    margin: 0 15px;
+    float: left;
+    padding: 30;
+    display: inline-block;
+    margin: 15px;
 }
 
 nav ul li a {
     text-decoration: none;
-    color: #ff4500; /* Orange */
+    color: black;
     font-weight: bold;
 }
 
@@ -149,4 +155,23 @@ footer {
         display: inline-block;
         margin: 5px;
     }
+}
+
+.cardcontainer {
+    border : 2px solid blue;
+    background-color: #ffcc00; /* Yellow */;
+}
+
+.card {
+    border : 5px solid blue;
+    width : 50%;
+    background-color:#398d9a
+    
+}
+
+.card > img {
+    height : 200px;
+    width : 200px;
+    border-radius: 10%;
+    border : 5px solid orange;
 }
